@@ -80,8 +80,6 @@
       background: #e74c3c;
       color: white;
     }
-      flex-shrink: 0;
-    }
 
     .screen {
       padding: 0 1rem 0.5rem;
@@ -99,15 +97,12 @@
       flex-shrink: 0;
     }
 
-    .screen-header .paw-icon {
+    .app-logo-icon {
       width: 36px;
       height: 36px;
-      background: #2f5d50;
-      border-radius: 12px;
-      display: grid;
-      place-items: center;
-      color: white;
-      font-size: 1.1rem;
+      border-radius: 10px;
+      object-fit: cover;
+      flex-shrink: 0;
     }
 
     .screen-header h1 {
@@ -650,7 +645,7 @@
       <div id="appHome">
         <div class="screen active">
           <div class="screen-header">
-            <div class="paw-icon">🐾</div>
+            <img src="logo.jpeg" alt="PawLearn" class="app-logo-icon" />
             <h1>PawLearn</h1>
             <span class="badge-count" id="pointsDisplay">0 pts</span>
           </div>
@@ -728,7 +723,7 @@
       <div id="profileScreen">
         <div class="screen active">
           <div class="screen-header">
-            <div class="paw-icon">🐾</div>
+            <img src="logo.jpeg" alt="PawLearn" class="app-logo-icon" />
             <h1>Perfil</h1>
             <span></span>
           </div>
