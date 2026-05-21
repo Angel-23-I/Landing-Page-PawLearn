@@ -193,6 +193,38 @@ nav a:hover::after {
   transform: translateY(-2px);
 }
 
+.btn-accent {
+  background: var(--accent);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.btn-accent:hover {
+  background: #e8913d;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.nav-mvp {
+  background: var(--accent);
+  color: white !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.82rem !important;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.nav-mvp:hover {
+  background: #e8913d;
+  color: white !important;
+}
+
+.nav-mvp::after {
+  display: none !important;
+}
+
 .hero-stats {
   display: flex;
   gap: 1.5rem;
